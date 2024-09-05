@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Inter, sans-serif;
+}
+
+nav{
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    padding: 30px 25px;
+}
+
+.nav--img{
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.nav--text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+
+}
+
+.card-box{
+    /* caixinha geral */
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.card-info{
+    /* caixinha do texto */
+    margin-left: 20px;
+}
+
+.info-title{
+    line-height: 10px;
+    font-size: 25px;
+    color: #2B283A;
+}
+
+.img--cards{
+    width:  130px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 9px;
+    margin: 0;
+}
+
+hr{
+    border: 1px solid #F5F5F5;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+loc{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a{
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+span{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    font-family: Inter, sans-serif;
+}
+
+.date{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+p{
+    margin-top: 10px;
+    /* Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists. */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    /* or 15px */
+    color: #2B283A;
+}
+
+.img--loc{
+    padding-right: 5px;
+    height: 13px;
+}
+
